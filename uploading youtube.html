@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial: Embedding a YouTube Video in HTML</title>
+    <style>
+        /* General page styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Steps */
+        .step {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 800px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .step h2 {
+            color: #4CAF50;
+        }
+
+        /* Screenshot placeholder */
+        .screenshot {
+            margin-top: 10px;
+            padding: 40px;
+            border: 2px dashed #ccc;
+            text-align: center;
+            color: #999;
+            font-style: italic;
+        }
+
+        /* Example video section */
+        .example {
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>How to Embed a YouTube Video in HTML</h1>
+        <p>Follow these steps to add a YouTube video to your webpage.</p>
+    </header>
+
+    <main>
+        <!-- Step 1 -->
+        <section class="step">
+            <h2>Step 1: Find Your YouTube Video</h2>
+            <p>Go to YouTube and open the video you want to embed.</p>
+            <div class="screenshot"><img src="Screenshot 2025-12-11 201350.png" alt="" width="638" height="723"></div>
+        </section>
+
+        <!-- Step 2 -->
+        <section class="step">
+            <h2>Step 2: Click Share</h2>
+            <p>Below the video, click the <strong>Share</strong> button.</p>
+            <div class="screenshot"><img src="C:/Users/raaay/OneDrive/Pictures/Screenshots/Screenshot 2025-12-11 201418.png" width="481" height="63" alt=""></div>
+        </section>
+
+        <!-- Step 3 -->
+        <section class="step">
+            <h2>Step 3: Select Embed</h2>
+            <p>In the share options, choose <strong>Embed</strong>. This will show you an <code>&lt;iframe&gt;</code> code.</p>
+            <div class="screenshot"><img src="C:/Users/raaay/OneDrive/Pictures/Screenshots/Screenshot 2025-12-11 201437.png" width="462" height="332" alt=""></div>
+        </section>
+
+        <!-- Step 4 -->
+        <section class="step">
+            <h2>Step 4: Copy the Embed Code</h2>
+            <p>Copy the <code>&lt;iframe&gt;</code> code provided by YouTube.</p>
+            <div class="screenshot"><img src="C:/Users/raaay/OneDrive/Pictures/Screenshots/Screenshot 2025-12-11 203140.png" width="422" height="482" alt=""></div>
+        </section>
+
+        <!-- Step 5 -->
+        <section class="step">
+            <h2>Step 5: Paste into Your HTML File</h2>
+            <p>Open your HTML file in a text editor and paste the embed code where you want the video to appear.</p>
+            <div class="screenshot"><img src="Screenshot 2025-12-11 204750.png" width="523" height="254" alt=""></div>
+        </section>
+
+        <!-- Step 6 -->
+        <section class="step">
+            <h2>Step 6: Save and Test</h2>
+            <p>Save your HTML file and open it in a browser. The YouTube video should now be embedded.</p>
+            <div class="screenshot"><img src="Screenshot 2025-12-11 204929.png" width="557" height="441" alt=""></div>
+        </section>
+
+                 <!-- Example Video -->
+        <section class="example">
+            <h2>Example Embedded Video</h2>
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/zTqcb8hl8YI"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </section>
+    </main>
